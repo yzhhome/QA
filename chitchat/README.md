@@ -1,36 +1,5 @@
 # GPT2 for Chinese chitchat
 
-## UPDATE 2021.06.16
-发布了[基于CPM模型的中文文本生成项目](https://github.com/yangjianxin1/CPM) ，可用于作文、小说、新闻、古诗等中文生成任务，并且训练和分享了中文作文生成模型，取得了不错的生成效果。
-该项目提供了数据预处理、模型训练、文本生成、Http服务等代码模块。生成效果如下：
-```
-title:家乡的四季
-context:家乡的四季,最美不过了
-
-result:
-家乡的四季,最美不过了。家乡的四季,是令人沉醉的。
-春天,万物复苏,冰雪融化,万物复苏。树枝抽出了嫩芽,花朵绽放了笑脸,树木吐出了嫩芽,春笋也破土而出,像是迎接春天的到来。小鸟们也在枝头唱起了动听的歌曲,周围的一切都变成了春的样子。
-夏天,荷塘里的荷花开了,散发出阵阵清香。远处,山的颜色深浅不一,像是穿着一件翠绿的长裙,在荷塘的衬托下显得更加美,更加翠绿。微风拂过,荷花轻轻地摆动着,像是在和我打招呼呢!
-秋天,
-
-result:
-家乡的四季,最美不过了。
-春天,嫩芽破土而出,焕发出生机。每当春姑娘来临之际,小草就会脱下旧衣服,冲出家门,迫不及待地站在土地上,感受春风亲吻着自己的脸庞,贪婪地吸吮着甘甜的露水。春姑娘来到田野里,到处都是一片嫩绿,一派盎然的景象。柳树姑娘刚刚梳理好头发,甩动着长长的头发,伴随着阵阵春风,跳起了欢快的舞蹈。此时此刻,春雨也来凑热闹了,她滴落在溪水中,随着春风舞动起来,漾起一圈圈水纹。在河边,长满了一串串一串串鲜艳的鲜花,
-```
-
-
-
-## UPDATE 2021.05.26
-- 调整项目结构，优化代码，修改部分bug。简化生成方法，加快生成速度，删除了MMI的做法
-- 新增50w、100w的多轮对话的原始数据与预处理数据
-
-## UPDATE 2020.01.09
-添加50w闲聊语料与预训练模型的GoogleDrive的下载地址
-
-## UPDATE 2019.12.17
-~~基于微软的论文[DialoGPT:Large-Scale Generative Pre-training for Conversational Response Generation](https://arxiv.xilesou.top/pdf/1911.00536.pdf)添加了MMI Model(maximum mutual information scoring function),对dialogue model生成的多个response进行筛选~~
-
-
 ## 项目描述
 - 本项目是基于GPT2的中文闲聊机器人，模型实现基于HuggingFace的[transformers](https://github.com/huggingface/transformers)。
 - 本项目受 [GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese)启发，精读作者的代码，获益匪浅。
