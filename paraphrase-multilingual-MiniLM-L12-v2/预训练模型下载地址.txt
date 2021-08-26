@@ -1,0 +1,3 @@
+sentence transformers预训练模型下载地址：
+
+https://public.ukp.informatik.tu-darmstadt.de/reimers/sentence-transformers/v0.2/paraphrase-multilingual-MiniLM-L12-v2.zip
