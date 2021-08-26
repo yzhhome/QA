@@ -27,9 +27,6 @@ python3.6、 transformers==4.2.0、pytorch==1.7.0
 
 
 ## 模型简介
-### 模型结构
-![avatar](figure/model.png)
-
 
 ### 模型参数简介(详见模型的config.json文件)
 - initializer_range: 0.02
